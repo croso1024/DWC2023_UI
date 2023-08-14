@@ -1,0 +1,13 @@
+[Unit]
+Description=PassengerUI
+
+[Service]
+User=kangli
+Type=simple
+ExecStart=/usr/bin/python3 /home/kangli/Ming_JS/react/avbus_v2/gpio_backend.py
+WorkingDirectory=/home/kangli/Ming_JS/react/avbus_v2
+Restart=always
+
+
+[Install]
+WantedBy=multi-user.target

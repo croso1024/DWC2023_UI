@@ -1,0 +1,167 @@
+
+.APP-Based {
+    /* background-color: darkblue; */
+    background-image: url('./media/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+
+.unConnection-Page {
+    background-color: rgba(200, 200, 200, 0.5);
+    position: absolute;
+    top: 40% ; 
+    width : 100% ; 
+    text-align: center;
+}
+
+.TaskEditor {
+    position: absolute;
+    top:27% ; 
+    left:72% ;
+}
+.PreviousTask {
+    position: absolute;
+    top:27%;
+    left:86%;
+}
+.ModeControl {
+    position: absolute;
+    left : 72% ;
+    top:5% ; 
+}
+.StationControl {
+    position: absolute;
+    /* padding-left: 3%; */
+    width:10%;
+    /* background-color: lime; */
+    top:5%; 
+    left:86% ;
+}
+
+.MotionControl {
+    position: absolute;
+    left:72% ; 
+    top:16% ;
+
+}
+
+.StateMachine-Moniter {
+    background-color:rgba(29, 29, 164, 0.5); 
+    position: absolute;
+    border-radius: 15px;
+    width: 45%;
+    left:26% ; 
+    top:25%;
+}
+.SubModuleState-SM {
+    background-color:rgba(246, 246, 46, 0.7); 
+    margin:10px;
+    padding:10px;
+    border-radius: 20px;
+    /* display: flex; */
+}
+
+.SubModuleState-SM span {
+    /* background-color: lime; */
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(194, 19, 19);
+    right:5%;
+}
+
+
+.MiddleControl-Moniter {
+    background-color:rgba(29, 29, 164, 0.5); 
+    position: absolute;
+    border-radius: 20px;
+    width: 45%;
+    left:26% ; 
+    top:5%;
+}
+
+.SubModuleState-MC {
+    position: relative;
+    background-color:rgba(246, 246, 46, 0.7); 
+    margin:10px;
+    left:10px;
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+.SubModuleState-MC span {
+    /* background-color:rgba(246, 246, 46, 0.7);  */
+    margin:20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(194, 19, 19);
+    right:5%;
+}
+
+
+.ErrorCode-Moniter {
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.4); ;
+    /* background-color: lime; */
+    top:0% ;
+    width:23%;
+    height: 100%;
+    left:2% ; 
+}
+.ErrorCode-Module {
+    background-color: rgba(200, 200, 200, 0.8); 
+    /* width:25% ;  */
+    border-radius: 10px;
+    padding:2px;
+    margin:6px;
+}
+
+.ErrorCode-Module span {
+    position: absolute;
+    right:25px;
+    font-size: 20px;
+    right:10px ;
+    font-weight: bold;
+}
+
+#haveError {
+    color: red;
+}
+
+
+.NextStation {
+    position: absolute; 
+    background-color: rgba(57, 39, 219, 0.9); 
+    top:84%   ; 
+    left:26%  ; 
+    width:45% ;
+    border: 8px solid rgba(16, 5, 87, 0.8); 
+    border-radius: 10px;
+
+}
+
+.NextStation span {
+    color:gold ;
+    font-weight: bold; 
+}
+
+.HistoryMoniter {
+    position: absolute;
+    top:45% ; 
+    left:71% ; 
+    width:28% ;
+}
+.HistoryMoniter-item {
+    margin:5x;
+    /* background-color: lime; */
+}
+
+.HistoryCleanButton {
+    position: absolute;
+    top:38%;
+    left:73%;
+
+}

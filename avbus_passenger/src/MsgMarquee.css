@@ -1,0 +1,23 @@
+@keyframes marqueeAnimation {
+    0% {
+      transform: translateY(70%);
+    }
+    100% {
+      /* transform: translateX(-100%); */
+      transform: translateY(-100%);
+    }
+  }
+  
+
+
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marqueeAnimation 4s linear infinite;
+    position: fixed;
+    background-color: rgba(162, 180, 26, 0.743);
+    border-radius: 50px;
+    left:5%;
+    width:90% ; 
+    bottom: 5%;
+  }

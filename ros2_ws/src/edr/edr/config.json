@@ -1,0 +1,7 @@
+{
+    "Config_version":"v0.1" , 
+    "Server":"mongo" , 
+    "Database":"mongoTest" , 
+    "port":27017,
+    "CollectionNames":  "log_test"
+}

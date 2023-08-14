@@ -1,0 +1,33 @@
+{
+    "rosClient":{
+        "url" : "ws://10.42.0.36:9090"
+    },
+    
+
+    "StartMission_topic":{
+        "name":"/HMI/passenger/start_mission",
+        "messageType":"sm_interfaces/msg/StartMission"
+    },
+    "UpdateDepot_topic":{
+        "name":"/HMI/driver/next_depot",
+        "messageType":"sm_interfaces/msg/NextDepot"
+    },
+    "GetMission_srv":{
+        "name":"/decision/get_mission",
+        "serviceType":"sm_interfaces/srv/GetMission"
+    },
+    "GetDepot_srv":{
+        "name":"/decision/get_depot",
+        "serviceType":"sm_interfaces/srv/GetDepot"
+    },
+    "HMIAction_msg":{
+        "name":"/HMI/passenger/hmi_action",
+        "messageType":"sm_interfaces/msg/HMIAction" 
+    },
+    "VehiclePos_topic": {
+        "name":"/HMI/passenger/update_passenger_hmi",
+        "messageType":"sm_interfaces/msg/UpdatePassengerHMI"
+    }
+    
+    
+}

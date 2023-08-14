@@ -1,0 +1,76 @@
+{
+    "rosClient": {
+        "url": "ws://localhost:9090" 
+    },
+
+    "WrappedState" : {
+        "name": "/decision/wrapped_state", 
+        "messageType": "sm_interfaces/msg/WrappedState" 
+    },
+
+    "ErrorCodeSummary":{
+        "name":"/error_summary" , 
+        "messageType":"sm_interfaces/msg/ErrorSummary"
+    },
+
+    "ErrorCode": {
+        "name":"/error_code",  
+        "messageType":"sm_interfaces/msg/ErrorCode" 
+    },
+
+    "MC_throttle" : {
+        "name":"/middle_control/throttle",
+        "messageType":"std_msgs/Float32" 
+    },
+
+    "MC_steering" : {
+        "name":"/middle_control/steering",
+        "messageType":"std_msgs/Float32" 
+    },
+
+    "MC_brake" : {
+        "name":"/middle_control/brake",
+        "messageType":"std_msgs/Float32" 
+    },
+
+    "MC_odom" : {
+        "name":"/middle_control/odom",
+        "messageType":"std_msgs/Float32" 
+    },
+
+    "MissionMsg":{
+        "name":"/decision/pending_mission" ,
+        "messageType":"sm_interfaces/src/MissionMsg"
+    },
+
+    "AddMission":{
+        "name":"/decision/add_mission_trigger", 
+        "serviceType":"sm_interfaces/srv/AddMission"
+    },
+    "ModeSwitch":{
+        "name":"/decision/mode_switch" , 
+        "serviceType":"sm_interfaces/srv/SimpleStringService" 
+    }, 
+    "LeaveStation" :{
+        "name":"/decision/leave_depot" , 
+        "serviceType":"sm_interfaces/srv/SimpleBoolService" 
+    },
+    "DepotPassed":{
+        "name":"/decision/pass_depot",
+        "serviceType":"sm_interfaces/srv/SimpleBoolService"
+    },
+
+    "UpdateDepot":{
+        "name":"/HMI/driver/next_depot",
+        "messageType":"sm_interfaces/msg/NextDepot" 
+    }, 
+    "GetDepot":{
+        "name":"/decision/get_depot" ,
+        "serviceType":"sm_interfaces/srv/GetDepot"
+    }, 
+    "OverTake" : {
+        "name":"/decision/request_overtake" , 
+        "serviceType":"sm_interfaces/srv/SimpleBoolService"
+    }
+    
+}

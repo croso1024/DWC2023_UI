@@ -1,0 +1,7 @@
+builtin_interfaces/Time stamp
+string system_level_state
+string autoware_overall_state
+string driving_mode
+string ad_available
+string mission_state
+string mission_register_state

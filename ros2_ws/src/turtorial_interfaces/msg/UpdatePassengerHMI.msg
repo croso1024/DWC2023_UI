@@ -1,0 +1,3 @@
+float32 vehicle_longitude
+float32 vehicle_latitude
+uint16 eta

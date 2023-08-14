@@ -1,0 +1,22 @@
+
+HMI初始化流程:
+HMI嘗試連接ROS socket server 
+連接失敗 -> 等待一定秒數後嘗試重新連接
+連接成功 -> 開始向Ros註冊service , topic等內容 , 設定Connection_state == true 
+-------
+"當HMI連接上Socket Server後"，打開StartMission srcServer ，同時call GetMission索取路線資訊 ，
+
+如果Call GetMission收到有效路線資訊且Route_config==False -> 設定路線相關資訊 , 設定Route_config == True
+如果Call GetMission收到有效路線資訊且Route_config==True  -> 不做任何事
+
+如果Call GetMission收到空路線資訊 -> 不做任何操作
+
+接受到StartMission時Route_config == True -> 不做任何事
+接受到StartMission時Route_config == False -> 設定路線資訊 , Routing_config == True 
+
+Connection_state && Route_config 皆true才會渲染頁面
+
+
+
+
+

@@ -1,0 +1,223 @@
+.APP_Based{
+    /* position: relative;  */
+    position: absolute;
+    /* background-color: rgb(174, 79, 79) ;   */
+    top:5%;
+    left:5%;
+    height: 90%;
+    width: 90%;
+}
+
+body {
+    background-image: url('./media/background.jpg');
+    
+    /* background-color: rgb(79, 100, 114);  */
+    /* background-image: url("./media/fight.gif"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.WaittingConnect{
+    position: absolute;
+    background-color: rgba(203, 203, 203 , 0.5); 
+    height:100% ; 
+    width:100%;
+}
+.WaittingConnection-message {
+    position: absolute;
+    display: flex;
+    background-color:  rgba(203, 203, 203 , 0.8); 
+    width:100% ; 
+    top:40% ; 
+    height : 20% ; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Connection-Board{
+    /* position: relative ; */
+    position: absolute;
+    background-color: rgba(203, 203, 203 , 0.5); 
+    right:3%;
+    bottom:0;
+    height : 7%;
+    width : 28%;
+}
+
+.Display-Board{
+    /* background-color: blue;  */
+    /* position: relative; */
+    position: absolute;
+    background-color: rgba(203, 203, 203 , 0.5); 
+    left : 75% ; 
+    top  : 18% ; 
+    width : 19% ;
+    height: 70% ;
+} 
+
+.Main-Board{
+    position: absolute;
+    background-color: rgba(38, 37, 39, 0.4);
+    border-radius: 30px;
+    height:50%;
+    width:106%;
+    top:30%;
+    left:-3%;
+    /* height:50%; */
+
+}
+
+
+.RouteMap-Board{
+    position: absolute;
+    /* origin */
+    left : 0%;
+    top  : 30%;
+    width  : 50%;
+    height : 50%; 
+  
+}
+
+
+.MapContainer{ 
+    margin-left:0%;
+    margin-top: 5%;
+    height:80%;
+    width: 55%;
+    /* border-radius: 50px; */
+
+
+    /* style={{ height: '100%' , width:'100%' ,borderRadius:"30px"  }} */
+}
+
+
+.Title-Board{
+    background-color: rgb(7, 7, 105);
+    /* border:5px solid rgba(178, 245, 22, 0.92);  */
+    /* border-radius: 20px; */
+    position: absolute;
+    /* width:100%; */
+    width:110% ; 
+    left:-5%;
+    top:-3%;
+}
+
+.StationStepper-Board{
+    position: absolute;
+    background-color: rgba(11, 27, 100, 0.54);
+    max-width: 100%;
+    min-width: 100%;
+    top:10%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: -10px;
+    
+    height: 12%;
+    border-radius: 80px;
+
+}
+.StepIcon img{
+    /* background-color: lime; */
+    justify-content: center;
+    /* position: absolute; */
+    /* height: 100%; */
+    /* width:15%; */
+    width: 40px;
+    
+}
+
+
+
+.NextStation-Board{
+    background-color:  rgba(38, 10, 252, 0.76);
+    position:absolute ; 
+    border-radius: 25px;
+    width:40% ; 
+    left:42%;
+    top:0% ;
+    height: 7% ;  
+}
+
+.NextStation-Board span {
+    color:gold ;
+    font-weight: bold; 
+}
+
+.Station-Card{
+    background-color: red;
+    width:200px;
+    
+}
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.ImageCarousel-Board {
+    transition: opacity 0.5s ease;
+    /* background-color: rgba(152, 137, 86, 0.5); */
+    border-radius: 30px;
+    position: absolute;
+    left:27% ; 
+    top: 32% ; 
+    width:45% ; 
+    height: 45% ; 
+
+  }
+  
+.ImageCarousel-inner {
+    position: absolute ; 
+    width:90% ; 
+    height: 85%;
+    margin-left:5% ; 
+    margin-top:3%;
+
+}
+
+
+.Status-Board {
+    background-color: rgba(38, 10, 252, 0.76);
+    position: absolute;
+    width:12% ;
+    height : 7% ; 
+    border-radius: 20px;
+    left:85% ;
+    top:0% ;  
+
+}
+
+.BottomMessage-Board{
+    /* background-color: rgba(90, 113, 110, 0.8); */
+    /* border : 10px solid rgba(123, 104, 36, 0.5); */
+    border-radius: 10px;
+    position:absolute ; 
+    bottom:0% ; 
+    height: 15% ; 
+    width :100% ; 
+
+}
+
+.BottomMessage-message{
+    /* background-color: lime; */
+    height:100% ; 
+}
+
+.StreamLive {
+    position: absolute ;
+    /* background-color:  lime; */
+    top : 35% ;
+    left : 70% ;  
+} 
+
+#video-canvas {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+    /* height:50% ;  */
+}
+
+#paper {
+    background-color: rgba(143, 128, 184, 0.65);
+    border: 8px outset  rgba(73, 95, 43, 0.3);
+}
